@@ -37,8 +37,8 @@ textarea {
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
+    background: #DF0075;
+    color: #000;
     text-shadow: none;
 }
 
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu h1.logo a:hover {
-	color: #f85c37;
+	color: #DF0075;
 }
 
 .menu img.logo {
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/back.jpg) no-repeat center top; /* dh_ver2.png */ 
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #portfoliowrap .proc:hover {
 	background-color: #eee;
-	border-bottom: solid 2px #2f2f2f
+	border-bottom: solid 2px #DF0075
 }
 
 .portfolio {
@@ -442,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   overflow: hidden;
-  background-color: #2f2f2f;
+  background-color: #DF0075;
   -webkit-transition: background-color 0.4s;
   -moz-transition: background-color 0.4s;
   -o-transition: background-color 0.4s;
@@ -462,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project:hover .photo-wrapper {
-  background-color: #2f2f2f;
+  background-color: #DF0075;
 	background-image:url(../img/zoom.png);
 	background-repeat:no-repeat;
 	background-position:center;
@@ -487,4 +487,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .desc {
 	margin-top: 25px;
+}
+
+.service .fa {
+  /*color: #DF0075;
+  */
+
 }
